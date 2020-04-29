@@ -59,7 +59,8 @@
         12,
         13
       ],
-      "availability_blacklist": []
+      "availability_blacklist": [],
+      "homeassistant_legacy_triggers": false
     },
     "ban": [],
     "whitelist": [],
@@ -127,7 +128,8 @@
       ],
       "report": "bool?",
       "homeassistant_discovery_topic": "str?",
-      "homeassistant_status_topic": "str?"
+      "homeassistant_status_topic": "str?",
+      "homeassistant_legacy_triggers": "bool?"
     },
     "queue": {
       "delay": "int?",
